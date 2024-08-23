@@ -1,0 +1,70 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f7f7f7;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2em;
+}
+
+.intro {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+.portfolio-wrap {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.project-card {
+	background-color: #fff;
+	padding: 1em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-info {
+	margin-top: 20px;
+}
+
+.about-me {
+	background-color: #fff;
+	padding: 2em;
+	margin-top: 20px;
+}
+
+.about-me-content {
+	display: flex;
+	align-items: center;
+}
+
+.profile-pic {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.contact-me {
+	background-color: #fff;
+	padding: 2em;
+	margin-top: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+	clear: both;
+}
+
+
+
